@@ -1,0 +1,27 @@
+{
+  "name": "battleshipserver",
+  "version": "1.0.0",
+  "description": "/!\\ Attention, ne pas oublier de lancer MongoDb de la mani�re suivante: /!\\\r ./mongod.exe --httpinterface --rest",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloubTek/BattleshipJsServer.git"
+  },
+  "author": "bloubtek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BloubTek/BattleshipJsServer/issues"
+  },
+  "homepage": "https://github.com/BloubTek/BattleshipJsServer#readme"
+}
